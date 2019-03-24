@@ -1,3 +1,7 @@
+.text-center {
+  text-align: center;
+}
+
 html, body {
   font-style: aerial;
   margin: 0;
@@ -6,8 +10,30 @@ html, body {
 }
 
 .nav {
-  background-color: #00cc66;
   max-width: 100%;
   min-width: 150px;
   flex: 1;
+}
+
+body {
+  background-color: #ddd;
+}
+
+header {
+ padding: 1.875em 0;
+}
+
+.img-border {
+  border-color: lightyellow;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 25%;
+}
+
+.mint-background {
+  background-color: #00cc66;
+}
+
+.grey-background {
+  background-color: grey;
 }
