@@ -1,6 +1,6 @@
 .text-center {
-  text-align: center;
-  margin: 20px;
+  margin-right: 150px;
+  margin: 25px;
 }
 
 html, body {
@@ -22,14 +22,25 @@ body {
 }
 
 header {
- padding: 1.875em 0;
+  padding: -30px;
+  font-size: 30px;
+  font-color: lightpurple;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 24px;
 }
 
 .img-border {
   border-color: lightyellow;
   border-width: 10px;
   border-style: solid;
-  border-radius: 25%;
+  border-radius: 15%;
+  margin: auto;
 }
 
 .mint-background {
@@ -38,4 +49,13 @@ header {
 
 .grey-background {
   background-color: grey;
+}
+
+p {
+  font-size: 20px;
+}
+
+.big-bold {
+  font-size: 22px;
+  font-weight: bold;
 }
